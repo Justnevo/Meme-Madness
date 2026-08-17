@@ -1,0 +1,381 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="theme-color"
+        content="#070707"
+    >
+
+    <title>Cade Meme Madness</title>
+
+    <link
+        rel="stylesheet"
+        href="css/style.css?v=8"
+    >
+</head>
+
+<body>
+
+<div id="app">
+
+    <!-- HOME -->
+
+    <section
+        id="home-screen"
+        class="screen active"
+    >
+
+        <header class="topbar">
+
+            <img
+                src="assets/branding/cade-meme-madness.png"
+                alt="Cade Meme Madness Arcade Game"
+                class="cade-brand"
+            >
+
+            <div class="coin-display">
+
+                <span class="coin-label">
+                    COINS
+                </span>
+
+                <strong id="coin-balance">
+                    20,000
+                </strong>
+
+            </div>
+
+        </header>
+
+
+        <main class="home-content">
+
+            <p class="eyebrow">
+                MAKE YOUR CALL
+            </p>
+
+            <h1>
+                Think you know<br>
+                <span>what happens next?</span>
+            </h1>
+
+            <p class="intro">
+                Choose your meme. Trust your instincts.
+                Let's see what you've got.
+            </p>
+
+            <button
+                id="enter-arcade"
+                class="primary-button"
+                type="button"
+            >
+                ENTER THE ARCADE
+                <span>→</span>
+            </button>
+
+            <p class="start-info">
+                YOUR COINS • YOUR CALL • YOUR SCORE
+            </p>
+            
+            <section class="meme-madness-disclaimer">
+
+                <div class="disclaimer-card">
+
+                    <span class="section-kicker">
+                        IMPORTANT
+                    </span>
+
+                    <p>
+                        <strong>Disclaimer:</strong>
+                        This is a visual explanation of how Cade Market's
+                        upcoming Meme Madness tournament games might look.
+                        All data shown are created for explanation purposes only.
+                    </p>
+
+                </div>
+
+                <div class="meme-madness-cta">
+
+                    <h2>
+                        See what you might face.
+                    </h2>
+
+                    <p>
+                        Test the games, experience the mechanics,
+                        and see what you might face in the Meme Madness tournament.
+                    </p>
+
+                    <a
+                        class="primary-button"
+                        href="https://cade.market/meme-madness/register?ref=7nuijufpj3&campaign=meme-madness-2026"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        TEST THE GAMES &amp; SIGN UP
+                        <span>→</span>
+                    </a>
+
+                </div>
+
+                <p class="meme-madness-credit">
+                    Built with love ❤️ by
+                    <a
+                        href="https://x.com/only1nevo"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        nevo
+                    </a>
+                </p>
+
+            </section>
+
+
+        </main>
+
+    </section>
+
+
+    <!-- ARCADE -->
+
+    <section
+        id="mode-screen"
+        class="screen"
+    >
+
+        <header class="page-header">
+
+            <button
+                id="back-home"
+                class="icon-button"
+                type="button"
+                aria-label="Back to home"
+            >
+                ←
+            </button>
+
+            <div>
+
+                <span class="section-kicker">
+                    MEME MADNESS
+                </span>
+
+                <h2>
+                    THE ARCADE
+                </h2>
+
+            </div>
+
+            <div class="mini-coins">
+
+                <span>
+                    COINS
+                </span>
+
+                <strong id="mode-coin-balance">
+                    20,000
+                </strong>
+
+            </div>
+
+        </header>
+
+
+        <main class="mode-grid">
+
+            <button
+                class="mode-card"
+                data-mode="grinder"
+                type="button"
+            >
+
+                <span class="mode-number">
+                    01
+                </span>
+
+                <div class="mode-icon">
+                    ⚡
+                </div>
+
+                <h3>
+                    GRINDER
+                </h3>
+
+                <p>
+                    Make your calls and
+                    build your coin stack.
+                </p>
+
+                <span class="mode-action">
+                    PLAY →
+                </span>
+
+            </button>
+
+
+            <button
+                class="mode-card"
+                data-mode="smasher"
+                type="button"
+            >
+
+                <span class="mode-number">
+                    02
+                </span>
+
+                <div class="mode-icon">
+                    💥
+                </div>
+
+                <h3>
+                    SMASHER
+                </h3>
+
+                <p>
+                    Take your shot and
+                    chase the big score.
+                </p>
+
+                <span class="mode-action">
+                    PLAY →
+                </span>
+
+            </button>
+
+
+            <button
+                class="mode-card"
+                data-mode="underdog"
+                type="button"
+            >
+
+                <span class="mode-number">
+                    03
+                </span>
+
+                <div class="mode-icon">
+                    ⚔
+                </div>
+
+                <h3>
+                    UNDERDOG
+                </h3>
+
+                <p>
+                    Pick your meme and
+                    back the unexpected.
+                </p>
+
+                <span class="mode-action">
+                    PLAY →
+                </span>
+
+            </button>
+
+
+            <button
+                class="mode-card"
+                data-mode="championship"
+                type="button"
+            >
+
+                <span class="mode-number">
+                    04
+                </span>
+
+                <div class="mode-icon">
+                    ♛
+                </div>
+
+                <h3>
+                    CHAMPIONSHIP
+                </h3>
+
+                <p>
+                    Put your skills together
+                    and chase the top score.
+                </p>
+
+                <span class="mode-action">
+                    PLAY →
+                </span>
+
+            </button>
+
+        </main>
+
+    </section>
+
+
+    <!-- GAME -->
+
+    <section
+        id="game-screen"
+        class="screen"
+    >
+
+        <header class="page-header">
+
+            <button
+                id="back-modes"
+                class="icon-button"
+                type="button"
+                aria-label="Back to arcade"
+            >
+                ←
+            </button>
+
+            <div>
+
+                <span
+                    id="active-mode-label"
+                    class="section-kicker"
+                >
+                    MEME MADNESS
+                </span>
+
+                <h2 id="active-mode-title">
+                    GRINDER
+                </h2>
+
+            </div>
+
+            <div class="mini-coins">
+
+                <span>
+                    COINS
+                </span>
+
+                <strong id="game-coin-balance">
+                    20,000
+                </strong>
+
+            </div>
+
+        </header>
+
+
+        <main id="game-content"></main>
+
+    </section>
+
+</div>
+
+
+<script src="js/tokens.js?v=3"></script>
+<script src="js/market.js?v=3"></script>
+<script src="js/game.js?v=3"></script>
+<script src="js/app.js?v=3"></script>
+</body>
+
+</html>
